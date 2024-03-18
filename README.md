@@ -6,3 +6,9 @@
 - Auto Rename Tag
 - HTML End Tag Labels
 2. Giới thiệu Git, GitHub
+- Một vài lệnh Git cơ bản
+    ```
+        git status
+        git add
+        git commit
+    ```
