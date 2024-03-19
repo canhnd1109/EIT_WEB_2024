@@ -46,10 +46,10 @@ Git mang đến nhiều lợi thế cho công việc lập trình
 # 3. Giới thiệu HTML, CSS, Javascript
 ![HTML-CSS-Javascript](htmlcssjs.jpeg)
 
-    3 yếu tố cơ bản để tạo nên một trang web
-    - HTML: Cung cấp cấu trúc cho 1 trang web
-    - CSS: Sử dụng để định dạng, kiểm soát trình bày của trang web
-    - Javsscript: Kiểm soát hành vi của các yếu tố khác nhau
+3 yếu tố cơ bản để tạo nên một trang web
+- HTML: Cung cấp cấu trúc cho 1 trang web
+- CSS: Sử dụng để định dạng, kiểm soát trình bày của trang web
+- Javsscript: Kiểm soát hành vi của các yếu tố khác nhau
 
 ### 3.1. HTML
 - HTML - HyperText Markup Language hay còn gọi là ngôn ngữ đánh dấu siêu văn bản được sử dụng trong việc phát triển các trang web
