@@ -178,6 +178,9 @@ Thuộc tính `display` giúp xác định các thành phần sẽ được đ�
         - `background-position: top bottom / xpos ypos / x% y%`
         - Chi tiết hơn: https://www.w3schools.com/cssref/pr_background-position.php
     - `background` (shorthand property)
+
+    `background: bg-color bg-image bg-repeat bg-attachment bg-pos/pg-size`
+
     `background :green  url("img.png") no-repeat fixed right top`
 
 ### 6. Float
