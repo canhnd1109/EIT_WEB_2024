@@ -149,6 +149,35 @@ Trình duyệt web hiển thị mọi phần tử dưới dạng hình chữ nh�
 
 -> Sử dụng thuộc tính `box-sizing: border-box` thì chiều dài và chiều cao của element sẽ bao gồm cả padding và border
 
-### 4. Display (block, inline, inline-block)<br>
+### 4. Display (block, inline, inline-block)
+Thuộc tính `display` giúp xác định các thành phần sẽ được đặt như thế nào trên trang web
+- `inline`: hiển thị thành phần như 1 thành phần nội tuyến. Chiều dài và chiều cao không thể ảnh hưởng.
+
+    Một số thẻ inline thường gặp: `<a></a>` , `<img/>`, `<span></span>`
+- `block`: cách thành phần bắt đầu ở dòng mới và chiếm toàn bộ chiều rộng
+- `inline-block: `: Sở hữu cả những tính chất của `inline` và `inline-block`
 ### 5. Color and Background <br>
+- `color: tên / RGB / HEX / HSL / RGBA / HSLA`
+- `opcacity`: độ trong suốt của thành phần
+- `background`: Thêm hiệu ứng nền cho phần tử
+    - `background-color`: Tạo màu nền
+
+        Ví dụ: `background-color: red`
+    - `background-image: url('...')`
+        - Tạo nền là hình ảnh
+        - Lặp lại hình ảnh theo chiều ngang và chiều dọc
+        - Ví dụ: `background-image: url("img_tree.png")`
+    - `background-repeat: repeat-x / repeat - y / no-repeat`
+    - `background-attachment: fixed / scroll`: xác định hình nền sẽ được cuộn hay cố định
+
+    - `background-position`: 
+        - Đặt vị trí bắt đầu của hình nền. 
+        - Mặc định được đặt góc trên cùng bên trái của một phần tử
+        - `background-position: top bottom / xpos ypos / x% y%`
+        - Chi tiết hơn: https://www.w3schools.com/cssref/pr_background-position.php
+    - `background` (shorthand property)
+    `background :green  url("img.png") no-repeat fixed right top`
+
 ### 6. Float
+- `float: left / right / none / inherit`: Xác định một phần tử sẻ trổi nổi như thế nào
+- `clear: none / left / right / both / inherit`: Xác định một phần từ sẽ có trạng thái như nào sau 1 phần từ trôi nổi
