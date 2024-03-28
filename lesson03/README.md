@@ -33,19 +33,19 @@ CSS - Cascading Style Sheets, ngôn ngữ tạo phong cách của website dùng 
     - 1 file CSS riêng biệt bao gồm những thuộc tính tạo kiểu với giúp đỡ của các attributes (class, id,...)
     - Thuộc tính CSS sẽ được đặt trong 1 file với phần mở rộng là .css
     - Được sử dụng thông qua thẻ `link`
-    - Ví dụ: file `style.css`
+    - Ví dụ: file `external.css`
     ```
-        <h1>
-            Hello world!
-        </h1>
+        h1 {
+            color: red;
+        }
     ```
-    file `index.html`
+    file `external.html`
     ```
-        <!DOCTYPE html>
+    <!DOCTYPE html>
     <html>
         <head>
             <title>Inline CSS</title>
-            <link rel="stylesheet" href="style.css"/>
+            <link rel="stylesheet" href="external.css"/>
         </head>
         <body>
             <h1>
@@ -63,23 +63,25 @@ CSS - Cascading Style Sheets, ngôn ngữ tạo phong cách của website dùng 
 - Phím tắt: Ctrl + /
 # Các thuộc tính trong CSS
 ### 1. Text formatting
-- Text Color: thiết lập màu <br> `color: red / #000 / rgb(255, 0, 0)`
+- `color: red / #000 / rgb(255, 0, 0)`: thiết lập màu <br> 
 
-- Text alignment: căn chỉnh theo chiều ngang <br> `text-align: left / right / center / justified`
+- `text-align: left / right / center / justified`: căn chỉnh theo chiều ngang <br> 
 
-- Text decoration: thêm hoặc xóa trang trí <br> `text-decoration: underline / overline / line-through / none`
+- `text-decoration: underline / overline / line-through / none`: thêm hoặc xóa trang trí <br> 
 
-- Test transformation: thay đổi hình dạng <br> `text-transform: uppercase / lowercase / capitalize`
+- `text-transform: uppercase / lowercase / capitalize`: thay đổi hình dạng <br> 
 
-- Letter spacing: tùy chỉnh khoảng cách giữa các kí tự <br> `letter-spacing: size`;
+- `letter-spacing: size`<br> 
 
-- Line height: thiết lập khoảng cách giữa các dòng <br> `line-height: size`
+- `line-height: size`: thiết lập khoảng cách giữa các dòng <br> 
 
-- Word spacing: tùy chỉnh khoảng cách giữa các chữ <br> `word-spacing: size`
+- `word-spacing: size`: tùy chỉnh khoảng cách giữa các chữ <br> 
 
-- Font family: thiết lập phông chữ <br> `font-family: `
+- `font-family: `: thiết lập phông chữ <br> 
 
-- Font size: thiết lập kích cỡ chữ <br> `font-size: size`
+- `font-size: size`: thiết lập kích cỡ chữ <br> 
+- `font-style: normal|italic|oblique|initial|inherit`: tạo kiểu cho chữ
+- `font-weight: normal|bold|lighter|bolder|number|initial|inherit|unset`: tạo độ dày
 
 ### 2. Units 
 - Absolute lengths (Độ dài tuyệt đối)
