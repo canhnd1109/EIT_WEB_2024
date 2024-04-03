@@ -149,6 +149,8 @@ Trình duyệt web hiển thị mọi phần tử dưới dạng hình chữ nh�
     - `margin: 25px 50px` - top/bottom - right/left
     - `margin: 25px` - all
 
+!Margin Collapse
+
 -> Sử dụng thuộc tính `box-sizing: border-box` thì chiều dài và chiều cao của element sẽ bao gồm cả padding và border
 
 ### 4. Display (block, inline, inline-block)
