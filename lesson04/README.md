@@ -1,5 +1,3 @@
-# Nội dung Buổi 3: CSS Selector
-
 ## **I. CSS Selector**
 
 [CSS Selector Reference - w3school](https://www.w3schools.com/cssref/css_selectors.php)
